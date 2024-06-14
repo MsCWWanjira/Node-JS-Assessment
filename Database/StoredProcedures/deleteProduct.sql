@@ -1,0 +1,8 @@
+USE ProductsAPI
+GO
+CREATE OR ALTER PROCEDURE deleteProduct(@ProductID VARCHAR(255))
+AS
+BEGIN
+DELETE FROM Products WHERE ProductID=@ProductID
+END
+GO

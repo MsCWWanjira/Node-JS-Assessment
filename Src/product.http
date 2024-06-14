@@ -1,0 +1,11 @@
+
+POST  http://localhost:4005/products
+Content-Type: application/json
+
+{
+    "ProductName":"Face Mask",
+    "ProductPrice":9500
+}
+
+########
+GET   http://localhost:4005/products
